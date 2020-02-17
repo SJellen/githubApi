@@ -1,7 +1,5 @@
 
 
-
-
 const createNode = (elem) => {
     return document.createElement(elem);
 
@@ -10,8 +8,6 @@ const createNode = (elem) => {
 const appendNode = (parent, elem) => {
     parent.appendChild(elem);
 }
-
-
 
 
 const ul = document.querySelector('#users')
@@ -32,13 +28,11 @@ fetch(url)
         span = createNode('span'),
         a = createNode('a')
         img.src = user.avatar_url;
-        span.innerText = user.login;
-        a.innerText = user.html_url;
-        a.href = user.html_url
+        a.innerText = user.login;
+        a.href = user.html_url;
         
 
         appendNode(li, img);
-        appendNode(li, span);
         appendNode(li, a);
         appendNode(ul, li);
     })

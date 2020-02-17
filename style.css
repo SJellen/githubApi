@@ -15,39 +15,30 @@ h1 {
 
 li {
     list-style: none;
-   
     display: inline-block;
     width: 200px;
     padding: 2rem;
-    
 }
 
-span {
-    margin-top: 1rem;
-    margin-bottom: 1rem;;
-    margin-left: 3rem;
-    color: white;
-    font-size: x-large;
-    padding: 5px;
-    float: left;
-
-    
-}
 
 img {
-    
     border-radius: 50%;
     width: 200px;
     height: auto;
-    
+    margin-bottom: 2rem;;
 }
 
 a {
     text-decoration: none;
     color: white;
     background-color: #6e5494;
-    font-size: small;
-    margin-left: 1rem;
+    font-size: large;
+    margin-left: 3rem;
     border-radius: 5px;
     padding: 5px;
+}
+
+a:hover {
+    background-color:#4078c0;
+    transition: ease-out 700ms;
 }
