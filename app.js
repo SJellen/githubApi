@@ -21,13 +21,6 @@ const url = 'https://api.github.com/users'
 
 
 
-
-/* // call the fetch
-fetch('http://www.omdbapi.com/?apikey=[73151e86]&')
-.then(res => res.json())
-.then(data => console.log(data)); */
-
-
 fetch(url)
 .then(res => res.json())
 .then(data => {
@@ -37,12 +30,15 @@ fetch(url)
         let li = createNode('li'),
         img = createNode('img'),
         span = createNode('span')
+        a = createNode('a')
         img.src = user.avatar_url;
         span.innerText = user.login;
+        
 
         appendNode(li, img);
         appendNode(li, span);
         appendNode(ul, li);
+       
     })
 
 
@@ -60,20 +56,3 @@ fetch(url)
 
 
 
-
-
-
-
-/* async function getData() 
-{
-    let response = await fetch('https://api.github.com/users')
-
-    let data = await response.json()
-
-    return data;
-
-}
-
-
-getData()
-.then(data => console.log(data)); */
