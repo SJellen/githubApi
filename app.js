@@ -29,16 +29,18 @@ fetch(url)
 
         let li = createNode('li'),
         img = createNode('img'),
-        span = createNode('span')
+        span = createNode('span'),
         a = createNode('a')
         img.src = user.avatar_url;
         span.innerText = user.login;
+        a.innerText = user.html_url;
+        a.href = user.html_url
         
 
         appendNode(li, img);
         appendNode(li, span);
+        appendNode(li, a);
         appendNode(ul, li);
-       
     })
 
 
