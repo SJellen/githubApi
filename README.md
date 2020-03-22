@@ -1,10 +1,21 @@
-# githubApi
+<h1 align="center">Welcome to Github API 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
+</p>
 
+> Asingle page with githubs top users from the github API
 
+### ✨ [Demo](https://jagged-leather.surge.sh/)
 
-A single page site with githubs top users using github API.
+## Author
 
-With:
-  user icons
-  user names
-  link to users github page
+👤 **Scott Jellen**
+
+* Github: [@SJellen](https://github.com/SJellen)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
