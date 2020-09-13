@@ -6,7 +6,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Asingle page with githubs top users from the github API
+> A single page with githubs top users from the github API
 
 ### ✨ [Demo](https://jagged-leather.surge.sh/)
 
